@@ -8,8 +8,8 @@ import './styles.scss';
 
 export function Login() {
   const history = useHistory();
-  const [name, setName] = useState<string>('root');
-  const [password, setPassword] = useState<string>('toor');
+  const [name, setName] = useState<string>('frexco');
+  const [password, setPassword] = useState<string>('frexco');
 
   async function handleLogin(event: FormEvent) {
     event.preventDefault();

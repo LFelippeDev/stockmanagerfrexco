@@ -20,7 +20,6 @@ export const LoginController = {
   
   async auth(req, res){
     const {name, password} = req.body
-    console.log(req.headers)
     const user = await UserData.findOne({name}).select('+password');
     
 
